@@ -1,0 +1,39 @@
+.span9 {
+    width: 700px;
+}
+.demo-browser {
+    background: #2C3E50 url("../images/demo/browser.png") no-repeat scroll 0px 0px / 659px 42px;
+    border-radius: 0px 0px 6px 6px;
+    color: #FFF;
+    margin: 0px 41px 140px 0px;
+    padding-top: 42px;
+}
+.demo-browser-side {
+    float: left;
+    padding: 22px 20px;
+    width: 111px;
+}
+.demo-browser {
+    color: #FFF;
+}
+.demo-browser-author {
+    background: transparent url("/static/pic/1.jpeg") no-repeat scroll center center;
+    border: 3px solid #FFF;
+    display: block;
+    height: 84px;
+    margin: 0px auto;
+    width: 84px;
+    border-radius: 50%;
+}
+.demo-browser-action {
+    padding: 30px 0px 12px;
+}
+.demo-browser-content {
+    background-color: #34495E;
+    border-radius: 0px 0px 6px;
+    overflow: hidden;
+    padding: 21px 0px 0px 20px;
+}
+.tou {
+    margin-top: 70px;
+}
