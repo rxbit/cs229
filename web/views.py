@@ -3,5 +3,5 @@ from django.views import generic
 
 # Create your views here.
 
-def IndexView():
+def IndexView(request):
     return render_to_response('index.html')
