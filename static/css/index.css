@@ -40,3 +40,50 @@
 body {
     background: deepskyblue;
 }
+.hed {
+/*width:100px;*/
+/*height:30px;*/
+/*background:red;*/
+position:relative;
+animation:myfirst 5s;
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+/*0%   {background:red; left:0px; top:0px;}*/
+/*25%  {background:yellow; left:200px; top:0px;}*/
+/*50%  {background:blue; left:200px; top:200px;}*/
+/*75%  {background:green; left:0px; top:200px;}*/
+/*100% {background:red; left:0px; top:0px;}*/
+0%   {left:700px; top:0px;}
+25%  {left:600px; top:0px;}
+50%  {left:400px; top:0px;}
+75%  {left:200px; top:0px;}
+100% {left:0px; top:0px;}
+}
+.tail {
+/*width:100px;*/
+/*height:30px;*/
+/*background:red;*/
+position:relative;
+animation:mysecond 5s;
+-webkit-animation:mysecond 5s; /* Safari and Chrome */
+}
+@keyframes mysecond
+{
+/*0%   {background:red; left:0px; top:0px;}*/
+/*25%  {background:yellow; left:200px; top:0px;}*/
+/*50%  {background:blue; left:200px; top:200px;}*/
+/*75%  {background:green; left:0px; top:200px;}*/
+/*100% {background:red; left:0px; top:0px;}*/
+0%   {right:700px; top:0px;}
+25%  {right:600px; top:0px;}
+50%  {right:400px; top:0px;}
+75%  {right:200px; top:0px;}
+100% {right:0px; top:0px;}
+}
+h3
+{
+text-shadow: 5px 5px 5px #FF0000;
+}
